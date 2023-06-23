@@ -1,0 +1,41 @@
+lib1 = require math ;
+class dot() implements Movable begin
+private int px,py ;
+dot (int px,int py) begin
+this.px = px;
+this.py = py;
+end
+int move( int step, bool postive ) begin
+px += step ;
+return px ;
+end
+end
+for (int myVar = 0; myVar < count and count > 5; myVar--) begin
+sum += myVar;
+end
+switch month.name begin
+case “Jan”:
+print(“it’s January”);
+break;
+case “Feb”:
+case “Dec”:
+print(“close enough”);
+break;
+default:
+print(“try again”);
+end
+double divide (int num1, int num2) begin
+double result;
+if !check_zero(num2) begin
+return Null;
+end
+result = num1 / num2;
+return result;
+end
+try begin
+res = num1 / num2;
+end
+catch (DivideByZero, ValueError )begin
+print(err, “oops.”);
+end
+
